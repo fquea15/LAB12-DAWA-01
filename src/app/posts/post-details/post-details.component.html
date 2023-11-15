@@ -1,0 +1,10 @@
+<!-- post-details.component.html -->
+
+<div *ngIf="postId !== undefined">
+    <h2>Post Details for Post ID {{ postId }}</h2>
+    <!-- Aquí puedes mostrar detalles adicionales del post -->
+  </div>
+  <div *ngIf="postId === undefined">
+    <p>No post selected</p>
+  </div>
+  
